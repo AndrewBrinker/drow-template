@@ -21,9 +21,3 @@ The other commands are:
   site, and an admin page for editing your configuration, modifying or
   adding posts, and modifying or adding pages.
 
-All configuration for your Drow site is contained in your `Drow.toml` file.
-Only a few variables are treated specially, namely `pages_repo` (which should
-be the location of the GitHub Pages repository you plan to deploy to) and
-`pages_user` (the name of the user for that GitHub Pages repo). All other
-variables are simply variables to be passed on to your site templates.
-
